@@ -1,0 +1,63 @@
+/*======================
+	Navigation 
+=======================*/
+
+/**** This can be removed ****/
+body 							{ margin: 0;}
+
+/**** Global settings ****/
+.navigation ul 					{ list-style-type: none; padding: 0;}
+.navigation a 					{ color: #000000; text-decoration: none;}
+.navigation a:hover 			{ color: #000000;}
+.navigation h6 					{ margin: 0;}
+.navigation .dock 				{ background-color: #DEDEDE; border: 1px solid #A4BCAB; border-radius: 2px 2px 2px 2px; height: 57px; padding: 5px; margin-top: 22px; color: transparent; color: #DEDEDE\9;}
+
+/**** 1st Level Navigation ****/
+
+.navigation 					{ background: url('../images/navigation-bg.png') repeat-x transparent; padding: 0 5px; overflow: auto;}
+.navigation h2 					{ margin: 0; font-size: 13px;}
+.navigation ul 					{ margin: 0; font-family: Verdana; font-size: 13px; font-weight: bold; margin: 0; text-shadow: 0 1px #CDDBCC; float: left;}
+.navigation ul li				{ float: left;}
+.navigation ul li:hover 		{ background: url('../images/navigation-bg.png') repeat-x 0 -95px transparent;}
+.navigation li a 				{ border: none; display: block; padding: 0 25px; height: 19px; border-left: 1px solid #819982;}
+.navigation li a:hover 			{ border: none; border-left: 1px solid #819982; background: none; background-color: transparent;}
+.navigation li:last-child h2	{ border-right: 1px solid #819982;} 
+.navigation li:first-child a 	{ background: url('../images/navigation-home-bg.png') 10px center no-repeat transparent;}
+.navigation li.selected 		{ background: url('../images/navigation-bg.png') repeat-x 0 -95px transparent;}
+
+
+
+
+/**** 2nd Level Navigation ****/
+.navigation ul li ul 			{ height: 69px; padding: 3px; font-family: Helvetica,Arial,sans-serif; position: absolute; left: 0;}
+.navigation ul li ul li:hover 	{ background: none;}
+.navigation ul li ul li h3, 
+.navigation ul li ul li h4		{ font-weight: normal; font-size: 11px; margin: 0;}
+.navigation ul li ul li a		{ border: none;}
+.navigation ul li ul li a:hover { border: none;}
+
+/**** 3ed Level Navigation ****/
+.navigation ul li ul li ul 		{ position: static;}
+
+/**** Groups ****/
+
+.navigation h6 					{ background: url("../images/subnav-group-title-bg.png") repeat-x scroll center bottom transparent; font-size: 11px; font-weight: bold; padding-bottom: 2px; text-align: center;}
+.navigation .group, 
+.navigation .group:hover		{ padding: 0 10px; background: url('../images/group-bg.png') no-repeat transparent;}
+.navigation .group li 			{ border: 1px solid transparent; }
+.navigation .group li:hover 	{ border: 1px solid #c9c9c9; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;}
+	/* Default Icon */
+	.navigation .group li a 		{ background: url('../images/icons/sample1.png') no-repeat center top transparent; background-size: 25px 25px; padding: 25px 0 0 0; padding-top: 28px\9; margin: 0 5px;}
+.navigation li.current:hover 	{ border: 1px solid transparent;}
+.navigation li.current li.group:hover 	{ border: 1px solid transparent;}
+.navigation li.current li.group:first-child 	{ background: none;}
+
+.navigation .current h6 		{margin-top: -6px;}
+
+.navigation .selected span 		{ background: url("../images/active-bg.png") 0 0 no-repeat transparent; display: inline-block; line-height: 20px; padding: 0 20px; margin-right: -25px;}
+.navigation ul li ul 			{ display: none;}
+
+/**** Icons ****/
+.navigation .group li a.service1 	{ background-image: url('../images/icons/service1.png');}
+.navigation .group li a.service2 	{ background-image: url('../images/icons/service2.png');}
+.navigation .group li a.service3 	{ background-image: url('../images/icons/service3.png');}
