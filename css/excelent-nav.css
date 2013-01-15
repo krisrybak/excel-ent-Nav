@@ -25,9 +25,6 @@ body 							{ margin: 0;}
 .navigation li:first-child a 	{ background: url('../images/navigation-home-bg.png') 10px center no-repeat transparent;}
 .navigation li.selected 		{ background: url('../images/navigation-bg.png') repeat-x 0 -95px transparent;}
 
-
-
-
 /**** 2nd Level Navigation ****/
 .navigation ul li ul 			{ height: 69px; padding: 3px; font-family: Helvetica,Arial,sans-serif; position: absolute; left: 0;}
 .navigation ul li ul li:hover 	{ background: none;}
@@ -50,7 +47,7 @@ body 							{ margin: 0;}
 	.navigation .group li a 		{ background: url('../images/icons/sample1.png') no-repeat center top transparent; background-size: 25px 25px; padding: 25px 0 0 0; padding-top: 28px\9; margin: 0 5px;}
 .navigation li.current:hover 	{ border: 1px solid transparent;}
 .navigation li.current li.group:hover 	{ border: 1px solid transparent;}
-.navigation li.current li.group:first-child 	{ background: none;}
+.navigation li.current li.group:first-child 	{ background: none; padding-left: 0;}
 
 .navigation .current h6 		{margin-top: -6px;}
 
