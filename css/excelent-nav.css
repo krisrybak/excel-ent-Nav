@@ -42,9 +42,10 @@ body 							{ margin: 0;}
 .navigation .group li 			{ border: 1px solid transparent; }
 .navigation .group li:hover 	{ border: 1px solid #c9c9c9; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;}
 .navigation li.current:hover 	{ border: 1px solid transparent;}
+.navigation li.current li.group { background-position: 0 -10px;}
 .navigation li.current li.group:hover 	{ border: 1px solid transparent;}
 .navigation li.current li.group:first-child 	{ background: none; padding-left: 0;}
-.navigation .current h6 		{margin-top: -6px;}
+.navigation .current h6 		{ margin-top: -6px;}
 .navigation .selected span 		{ background: url("../images/active-bg.png") 0 0 no-repeat transparent; display: inline-block; line-height: 20px; padding: 0 20px; margin: -2px -25px 0 0;}
 .navigation ul li ul 			{ display: none;}
 
