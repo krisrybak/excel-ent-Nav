@@ -18,7 +18,7 @@ body 							{ margin: 0;}
 .navigation ul 					{ margin: 0; font-family: Verdana; font-size: 13px; font-weight: bold; margin: 0; text-shadow: 0 1px #CDDBCC; float: left;}
 .navigation ul li				{ float: left;}
 .navigation ul li:hover 		{ background: url('../images/navigation-bg.png') repeat-x 0 -95px transparent;}
-.navigation li a 				{ border: none; display: block; padding: 0 25px; height: 19px; border-left: 1px solid #819982;}
+.navigation li a 				{ border: none; display: block; padding: 2px 25px 0; height: 18px; border-left: 1px solid #819982;}
 .navigation li a:hover 			{ border: none; border-left: 1px solid #819982; background: none; background-color: transparent;}
 .navigation li:last-child h2	{ border-right: 1px solid #819982;} 
 .navigation li:first-child a 	{ background: url('../images/navigation-home-bg.png') 10px center no-repeat transparent;}
@@ -45,7 +45,7 @@ body 							{ margin: 0;}
 .navigation li.current li.group:hover 	{ border: 1px solid transparent;}
 .navigation li.current li.group:first-child 	{ background: none; padding-left: 0;}
 .navigation .current h6 		{margin-top: -6px;}
-.navigation .selected span 		{ background: url("../images/active-bg.png") 0 0 no-repeat transparent; display: inline-block; line-height: 20px; padding: 0 20px; margin-right: -25px;}
+.navigation .selected span 		{ background: url("../images/active-bg.png") 0 0 no-repeat transparent; display: inline-block; line-height: 20px; padding: 0 20px; margin: -2px -25px 0 0;}
 .navigation ul li ul 			{ display: none;}
 
 /**** Icons ****/
